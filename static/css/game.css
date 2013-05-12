@@ -1,0 +1,119 @@
+/*!
+ * TrippoApp v1.0
+ * Copyright 2012 Trippo, Inc
+ * Licensed under CC BY 3.0
+ * http://creativecommons.org/licenses/by/3.0/
+ *
+ */
+	
+/***** NAVIGATION BAR *****/
+
+.navbar .brand {
+	font-weight: bold;
+	color: black;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+}
+
+/* Sticky footer styles  -------------------------------------------------- */
+
+html, body {
+    height: 100%;
+	background-color:#D6D0D2;
+	overflow-x:hidden !important;
+	overflow-y:hidden !important;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto; /* -12px; */
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+    height: 0px;
+}
+
+#footer {
+   background-color: #f5f5f5;
+}
+
+
+/*фоновые изображения */
+#mainGameUI .item {
+	
+	background-size:  100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+	/*-moz-background-size: cover;
+	background-size: cover;*/
+}
+
+
+.mainBtnText {
+	/*text-shadow: white 0.02em 0.02em;*/
+	font-family: 'QlassikBold', sans-serif;
+	color: #ECECEC;
+    text-shadow: -1px 0 #B3B3B3, 0 1px #B3B3B3, 1px 0 #B3B3B3, 0 -1px #B3B3B3, 0.03em 0.03em #020763;
+}
+
+.mainBtn {
+	margin-bottom:20px;
+}
+
+.mainBtn:hover, .mainBtn:focus {
+	background-color: #C2CDE1;
+    background-image: linear-gradient(to bottom, #FFFFFF, #C2CDE1);
+}
+
+
+/** главная страница **/
+.mainBtn_play {	
+	width:239px;
+	height:97px;
+	cursor:pointer;
+	background-image:url('/img/ui/playBtn_inactive.png');
+}
+
+.mainBtn_play:hover {
+	background-image:url('/img/ui/playBtn_active.png');
+}
+
+.mainBtn_battle {	
+	width:239px;
+	height:97px;
+	cursor:pointer;
+	background-image:url('/img/ui/battleBtn_inactive.png');
+}
+
+.mainBtn_battle:hover {
+	background-image:url('/img/ui/battleBtn_active.png');
+}
+
+.mainBtn_play_position {
+	position:relative;
+	top:495px;
+	left:375px;
+}
+
+/* класс карты на момент раздачи */
+.cardBattleF1 {
+	cursor:pointer;
+}
+
+
+/* test */
+.cardStack_card {
+	width:225px;
+	height:300px;
+	position:absolute;
+	text-align:center;
+	width:225px;
+}
